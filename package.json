@@ -74,7 +74,7 @@
     "webpack-stream": "^7.0.0"
   },
   "scripts": {
-    "clean": "rimraf dist/*",
+    "clean": "rimraf dist",
     "prebuild": "npm run clean",
     "build": "gulp build",
     "lint:svelte:svelte-check": "svelte-check",
